@@ -1,0 +1,99 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+   background-color: peachpuff;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: gray;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.5);
+    padding: 40px;
+}
+
+fieldset {
+    border: 20px solid teal;
+    border-radius: 70px;
+    padding: 18px;
+    margin-bottom: 10px;
+    background-color: peachpuff;
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    color: teal;
+    text-decoration:none;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    color:#000;
+    font-weight:bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 4px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.center-button {
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    background-color: tomato;
+    color: #000000e3;
+    border: #502c2c;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: teal;
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: peachpuff;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.5); 
+    
+}
+#resumeOutput h2{
+    color: #000;
+}
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border:1px solid#ccc ;
+    box-shadow: 4px 4px 8px rosybrown ;
+    border-radius: 500%;
+    width: 150px;
+    width: 150px;
+    object-fit: cover;
+
+}
